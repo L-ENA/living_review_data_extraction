@@ -1,7 +1,7 @@
-name: "Living Review Website"
+name: Living Review Website
 output_dir: ../docs
 navbar:
-  title: "website"
+  title: website
   left:
   - text: Home
     href: index.html
@@ -13,6 +13,10 @@ navbar:
     href: publications.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/L-ENA/website
 output:
   workflowr::wflow_html:
     toc: yes
