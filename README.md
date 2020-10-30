@@ -1,5 +1,5 @@
 # website
 
-A [workflowr][] project.
+A [workflowr][] project. This is the website for a living review.
 
 [workflowr]: https://github.com/jdblischak/workflowr
