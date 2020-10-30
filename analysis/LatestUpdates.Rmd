@@ -20,9 +20,16 @@ Number of papers included since the last publication: 0
 
 
 ### Latest figures
-<img src="figures/year_bar.html" alt="" width = "80%">
 
-```{r}
+These figures represent pre-update, and therefore unpublished, content from the living review. 
 
+```{r, echo=FALSE}
+htmltools::includeHTML("figures/bar_System_architectures.html")
+htmltools::includeHTML("figures/bar_App_or_user_interface_availability.html")
+htmltools::includeHTML("figures/year_bar.html")
 ```
+
+etc, etc, etc
+
+
 
