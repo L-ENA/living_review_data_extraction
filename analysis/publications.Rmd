@@ -1,0 +1,28 @@
+---
+title: "publications"
+author: "L-ENA"
+date: "2020-10-30"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Publication of our living systematic review
+
+The review protocol was be published via F1000 research: [Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved](https://f1000research.com/articles/9-210). Please cite as:
+
+> <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved]. F1000Research 2020, 9:210 (https://doi.org/10.12688/f1000research.22781.2)</font> 
+
+The up-to-date code for the screening and literature retrieval application is available from [L-ENA's GitHub repository](https://github.com/L-ENA/SR_automation_LSR) or as release on [zenodo](https://zenodo.org/record/3871366#.XteMf-fTU2w). Please cite as:
+
+> <font size="2" color="gray">Luke McGuinness and Lena Schmidt. mcguinlu/COVID_suicide_living: Initial Release (Version v1.0.0). Zenodo 2020. Available from: http://doi.org/10.5281/zenodo.3871366</font> 
+
+The review was registered prospectively on the OSF on March 9th 2020 under DOI [10.17605/OSF.IO/ECB3T](https://osf.io/ecb3t):
+
+
+
+
+```{r}
+
+```
+
