@@ -8,8 +8,12 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Abstract of our protocol
+## Data extraction methods for systematic review (semi)automation: A living review
 
+This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, as well as additional information about the team and related publication of this review and its software.
+
+
+## Abstract of the protocol
 ### Background: 
 Researchers in evidence-based medicine cannot keep up with the amounts of both old and newly published primary research articles. Support for the early stages of the systematic review process – searching and screening studies for eligibility – is necessary because it is currently impossible to search for relevant research with precision. Better automated data extraction may not only facilitate the stage of review traditionally labelled ‘data extraction’, but also change earlier phases of the review process by making it possible to identify relevant research. Exponential improvements in computational processing speed and data storage are fostering the development of data mining models and algorithms. This, in combination with quicker pathways to publication, led to a large landscape of tools and methods for data mining and extraction.
 

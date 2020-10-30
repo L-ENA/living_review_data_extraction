@@ -1,4 +1,4 @@
-name: "website"
+name: "Living Review Website"
 output_dir: ../docs
 navbar:
   title: "website"

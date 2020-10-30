@@ -12,4 +12,4 @@ wflow_open("analysis/Latest Updates.Rmd")
 
 wflow_build()
 wflow_publish(c("analysis/*", "*"),
-              "added interactive plots")
+              "Updated index")
