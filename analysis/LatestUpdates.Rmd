@@ -19,6 +19,9 @@ Number of full texts screened since the last publication: 0
 Number of papers included since the last publication: 0
 
 
+### Latest figures
+<img src="figures/year_bar.html" alt="" width = "80%">
+
 ```{r}
 
 ```
