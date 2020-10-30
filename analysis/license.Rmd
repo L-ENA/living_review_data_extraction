@@ -7,8 +7,8 @@ editor_options:
   chunk_output_type: console
 ---
 
-(https://creativecommons.org/licenses/by/4.0/)[Attribution 4.0 International (CC BY 4.0)] 
+Attribution 4.0 International: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
  
-The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved](https://f1000research.com/articles/9-210). Please cite as:
+The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol (version 2; peer review: 2 approved)](https://f1000research.com/articles/9-210). Please cite as:
 
 > <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved]. F1000Research 2020, 9:210 (https://doi.org/10.12688/f1000research.22781.2)</font> 
