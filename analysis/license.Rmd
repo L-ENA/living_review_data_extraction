@@ -7,7 +7,7 @@ editor_options:
   chunk_output_type: console
 ---
 
- [https://creativecommons.org/licenses/by/4.0/][Attribution 4.0 International (CC BY 4.0)] 
+(https://creativecommons.org/licenses/by/4.0/)[Attribution 4.0 International (CC BY 4.0)] 
  
 The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved](https://f1000research.com/articles/9-210). Please cite as:
 
