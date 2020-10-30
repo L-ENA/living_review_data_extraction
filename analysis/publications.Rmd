@@ -17,7 +17,7 @@ The up-to-date code for the screening and literature retrieval application is av
 
 > <font size="2" color="gray">Luke McGuinness and Lena Schmidt. mcguinlu/COVID_suicide_living: Initial Release (Version v1.0.0). Zenodo 2020. Available from: http://doi.org/10.5281/zenodo.3871366</font> 
 
-The review was registered prospectively on the OSF on March 9th 2020 under DOI [10.17605/OSF.IO/ECB3T](https://osf.io/ecb3t):
+The review was registered prospectively on the OSF on March 9th 2020 under DOI [10.17605/OSF.IO/ECB3T](https://osf.io/ecb3t)
 
 
 

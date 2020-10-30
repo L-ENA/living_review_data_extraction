@@ -8,4 +8,16 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+## Abstract of our protocol
+
+### Background: 
+Researchers in evidence-based medicine cannot keep up with the amounts of both old and newly published primary research articles. Support for the early stages of the systematic review process – searching and screening studies for eligibility – is necessary because it is currently impossible to search for relevant research with precision. Better automated data extraction may not only facilitate the stage of review traditionally labelled ‘data extraction’, but also change earlier phases of the review process by making it possible to identify relevant research. Exponential improvements in computational processing speed and data storage are fostering the development of data mining models and algorithms. This, in combination with quicker pathways to publication, led to a large landscape of tools and methods for data mining and extraction.
+
+### Objective: 
+To review published methods and tools for data extraction to (semi)automate the systematic reviewing process.
+
+### Methods: 
+We propose to conduct a living review. With this methodology we aim to do constant evidence surveillance, bi-monthly search updates, as well as review updates every 6 months if new evidence permits it. In a cross-sectional analysis we will extract methodological characteristics and assess the quality of reporting in our included papers.
+
+### Conclusions: 
+We aim to increase transparency in the reporting and assessment of automation technologies to the benefit of data scientists, systematic reviewers and funders of health research. This living review will help to reduce duplicate efforts by data scientists who develop data mining methods. It will also serve to inform systematic reviewers about possibilities to support their data extraction. 
