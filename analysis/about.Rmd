@@ -7,4 +7,18 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+## Contributors
+
+__Lena Schmidt__*, Sciome LLC, NC, USA and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. lena.schmidt@sciome.com
+
+__Babatunde K Olorisade__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. b.k.olorisade@bristol.ac.uk
+
+
+__Luke A McGuinness__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. luke.mcguinness@bristol.ac.uk
+
+__James Thomas__, UCL Social Research Institute, University College London, London, UK. james.thomas@ucl.ac.uk
+
+__Julian PT Higgins__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK; National Institute for Health Research Biomedical Research Centre, University Hospitals Bristol NHS Foundation Trust and University of Bristol, Bristol, UK; National Institute for Health Research Applied Research Collaboration West (NIHR ARC West) at University Hospitals Bristol NHS Foundation Trust, UK. Julian.Higgins@bristol.ac.uk
+
+
+*Contact author
