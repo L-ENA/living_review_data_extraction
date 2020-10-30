@@ -1,5 +1,5 @@
 ---
-title: "publications"
+title: "Publications"
 author: "L-ENA"
 date: "2020-10-30"
 output: workflowr::wflow_html
@@ -9,7 +9,7 @@ editor_options:
 
 ## Publication of our living systematic review
 
-The review protocol was be published via F1000 research: [Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved](https://f1000research.com/articles/9-210). Please cite as:
+The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved](https://f1000research.com/articles/9-210). Please cite as:
 
 > <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved]. F1000Research 2020, 9:210 (https://doi.org/10.12688/f1000research.22781.2)</font> 
 
