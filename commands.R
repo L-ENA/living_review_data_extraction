@@ -1,5 +1,6 @@
 library(knitr)    # For knitting document and include_graphics function
 library(glue)
+library(workflowr)
 wflow_git_pull(username = "L-ENA",
                password = "lukas1997-LNQGQGC4")
 

@@ -18,6 +18,7 @@ Number of full texts screened since the last publication: 0
 
 Number of papers included since the last publication: 0
 
+Last updated: 02-11-2020 (PubMed, arXiv); 02-11-2020 (DBLP)
 
 ### Latest figures
 
@@ -29,7 +30,7 @@ htmltools::includeHTML("figures/bar_App_or_user_interface_availability.html")
 htmltools::includeHTML("figures/year_bar.html")
 ```
 
-etc, etc, etc
+
 
 
 
