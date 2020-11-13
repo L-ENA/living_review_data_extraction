@@ -4,7 +4,7 @@ library(workflowr)
 wflow_git_pull(username = "L-ENA",
                password = "lukas1997-LNQGQGC4")
 
-#wflow_use_github("L-ENA")
+wflow_use_github("L-ENA")
 #To build the website, run the function wflow_build() in the R console:
 
 #To view the site without first building any files, run wflow_view(), which by default displays the file docs/index.html:
@@ -18,7 +18,7 @@ wflow_git_pull(username = "L-ENA",
 wflow_build()
 
 mytime=Sys.time()
-commit_msg=glue("Updated at {mytime}")
+commit_msg=glue("Added PRISMA, Updated at {mytime}")
 
 wflow_publish(c("analysis/*", "*"),
               commit_msg)

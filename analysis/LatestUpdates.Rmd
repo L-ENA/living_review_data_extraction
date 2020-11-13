@@ -20,6 +20,17 @@ Number of papers included since the last publication: 0
 
 Last updated: 02-11-2020 (PubMed, arXiv); 02-11-2020 (DBLP)
 
+### PRISMA 2020 flow diagram
+
+This is the PRISMA diagram for the first version of the living review.
+
+```{r, echo=FALSE}
+htmltools::includeHTML("figures/prisma.html")
+
+```
+
+The PRISMA diagrams were created using [Haddaway, NR. 2020. SRflowdiagram: flow charts for systematic reviews and maps. doi: 10.5281/zenodo.4134795](https://zenodo.org/record/4134795#.X67YUlCnxaQ)
+
 ### Latest figures
 
 These figures represent pre-update, and therefore unpublished, content from the living review. 
