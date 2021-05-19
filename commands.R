@@ -18,7 +18,7 @@ wflow_git_pull(username = "L-ENA",
 wflow_build()
 
 mytime=Sys.time()
-commit_msg=glue("Updated figures, Updated at {mytime}")
+commit_msg=glue("Updated text after publication of base review, Updated at {mytime}")
 
 wflow_publish(c("analysis/*", "*"),
               commit_msg)

@@ -8,20 +8,20 @@ editor_options:
   chunk_output_type: console
 ---
 
-## Data extraction methods for systematic review (semi)automation: A living review
+## Data extraction methods for systematic review (semi)automation: A living systematic review
 
 This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, as well as additional information about the team and related publication of this review and its software.
 
 
-## Abstract of the protocol
+## Abstract of the first published version of this living review
 ### Background: 
-Researchers in evidence-based medicine cannot keep up with the amounts of both old and newly published primary research articles. Support for the early stages of the systematic review process – searching and screening studies for eligibility – is necessary because it is currently impossible to search for relevant research with precision. Better automated data extraction may not only facilitate the stage of review traditionally labelled ‘data extraction’, but also change earlier phases of the review process by making it possible to identify relevant research. Exponential improvements in computational processing speed and data storage are fostering the development of data mining models and algorithms. This, in combination with quicker pathways to publication, led to a large landscape of tools and methods for data mining and extraction.
-
-### Objective: 
-To review published methods and tools for data extraction to (semi)automate the systematic reviewing process.
+The reliable and usable (semi)automation of data extraction can support the field of systematic review by reducing the workload required to gather information about the conduct and results of the included studies. This living systematic review examines published approaches for data extraction from reports of clinical studies
 
 ### Methods: 
-We propose to conduct a living review. With this methodology we aim to do constant evidence surveillance, bi-monthly search updates, as well as review updates every 6 months if new evidence permits it. In a cross-sectional analysis we will extract methodological characteristics and assess the quality of reporting in our included papers.
+We systematically and continually search MEDLINE, Institute of Electrical and Electronics Engineers (IEEE), arXiv, and the dblp computer science bibliography databases. Full text screening and data extraction are conducted within an open-source living systematic review application created for the purpose of this review. This iteration of the living review includes publications up to a cut-off date of 22 April 2020.
+
+### Results:
+In total, 53 publications are included in this version of our review. Of these, 41 (77%) of the publications addressed extraction of data from abstracts, while 14 (26%) used full texts. A total of 48 (90%) publications developed and evaluated classifiers that used randomised controlled trials as the main target texts. Over 30 entities were extracted, with PICOs (population, intervention, comparator, outcome) being the most frequently extracted. A description of their datasets was provided by 49 publications (94%), but only seven (13%) made the data publicly available. Code was made available by 10 (19%) publications, and five (9%) implemented publicly available tools.
 
 ### Conclusions: 
-We aim to increase transparency in the reporting and assessment of automation technologies to the benefit of data scientists, systematic reviewers and funders of health research. This living review will help to reduce duplicate efforts by data scientists who develop data mining methods. It will also serve to inform systematic reviewers about possibilities to support their data extraction. 
+This living systematic review presents an overview of (semi)automated data-extraction literature of interest to different types of systematic review. We identified a broad evidence base of publications describing data extraction for interventional reviews and a small number of publications extracting epidemiological or diagnostic accuracy data. The lack of publicly available gold-standard data for evaluation, and lack of application thereof, makes it difficult to draw conclusions on which is the best-performing system for each data extraction target. With this living review we aim to review the literature continually. 
