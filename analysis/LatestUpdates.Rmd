@@ -1,7 +1,7 @@
 ---
 title: "Latest Updates"
 author: "L-ENA"
-date: "2020-10-30"
+date: "May 19th, 2021"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
