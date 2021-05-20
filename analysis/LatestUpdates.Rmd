@@ -12,11 +12,14 @@ Latest published version: [ Data extraction methods for systematic review (semi)
 This page contains the latest updates to this living review. We have screened and continued the work on this review, a status update and resources are given below.
 
 ### Screening status
-Number of abstracts screened since the last publication: 0
 
-Number of full texts screened since the last publication: 0
+Number of abstracts retrieved since the last publication: 1376
 
-Number of papers included since the last publication: 0
+Number of abstracts screened since the last publication: 42
+
+Number of abstracts sent for full-text assessment since the last publication: 2
+
+Number of full-texts included since the last publication: 0
 
 Last updated: 02-11-2020 (PubMed, arXiv); 02-11-2020 (DBLP)
 
