@@ -21,7 +21,7 @@ Number of abstracts sent for full-text assessment since the last publication: 2
 
 Number of full-texts included since the last publication: 0
 
-Last updated: 02-11-2020 (PubMed, arXiv); 02-11-2020 (DBLP)
+Latest references retrieved: 02-11-2020 (PubMed, arXiv); 02-11-2020 (DBLP)
 
 ### PRISMA 2020 flow diagram for the base review
 
