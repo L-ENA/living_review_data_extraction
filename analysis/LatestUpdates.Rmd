@@ -1,7 +1,7 @@
 ---
 title: "Latest Updates"
-author: "L-ENA"
-date: "May 19th, 2021"
+author: "Lena Schmidt"
+date: "May 20th, 2021"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
