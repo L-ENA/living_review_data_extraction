@@ -332,7 +332,7 @@ $(document).ready(function () {
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -341,7 +341,7 @@ $(document).ready(function () {
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -353,7 +353,7 @@ $(document).ready(function () {
 <strong>Last updated:</strong> 2021-07-07
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>website/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -369,28 +369,28 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomLENAwebsitetreeff15e532977844b71dd14eee08aaae1c406c46a1targetblankff15e53a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/L-ENA/website/tree/ff15e532977844b71dd14eee08aaae1c406c46a1" target="_blank">ff15e53</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomLENAwebsitetree5bad23b32e1f09efb4953666ccee58a9f1d27a27targetblank5bad23ba"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/L-ENA/website/tree/5bad23b32e1f09efb4953666ccee58a9f1d27a27" target="_blank">5bad23b</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomLENAwebsitetreeff15e532977844b71dd14eee08aaae1c406c46a1targetblankff15e53a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomLENAwebsitetree5bad23b32e1f09efb4953666ccee58a9f1d27a27targetblank5bad23ba" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/L-ENA/website/tree/ff15e532977844b71dd14eee08aaae1c406c46a1" target="_blank">ff15e53</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/L-ENA/website/tree/5bad23b32e1f09efb4953666ccee58a9f1d27a27" target="_blank">5bad23b</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -400,6 +400,9 @@ Ignored files:
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
     Ignored:    commands.R
+
+Unstaged changes:
+    Modified:   analysis/about.Rmd
 
 </code></pre>
 <p>
@@ -438,6 +441,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/L-ENA/website/5bad23b32e1f09efb4953666ccee58a9f1d27a27/docs/about.html" target="_blank">5bad23b</a>
+</td>
+<td>
+Lena Schmidt
+</td>
+<td>
+2021-07-07
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -838,8 +858,8 @@ Start workflowr project.
 </div>
 <div id="contributors" class="section level2">
 <h2>Contributors</h2>
-<p><strong>Lena Schmidt</strong>*, Sciome LLC, NC, USA and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. <a href="mailto:lena.schmidt@sciome.com" class="email">lena.schmidt@sciome.com</a></p>
-<p><strong>Babatunde K Olorisade</strong>, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. <a href="mailto:b.k.olorisade@bristol.ac.uk" class="email">b.k.olorisade@bristol.ac.uk</a></p>
+<p><strong>Lena Schmidt</strong>*, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK and Sciome LLC, NC, USA. <a href="mailto:lena.schmidt@sciome.com" class="email">lena.schmidt@sciome.com</a></p>
+<p><strong>Babatunde K Olorisade</strong>, Cardiff School of Technologies, Cardiff Metropolitan University, Cardiff, CF5 2YB, UK and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. <a href="mailto:b.k.olorisade@bristol.ac.uk" class="email">b.k.olorisade@bristol.ac.uk</a></p>
 <p><strong>Luke A McGuinness</strong>, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. <a href="mailto:luke.mcguinness@bristol.ac.uk" class="email">luke.mcguinness@bristol.ac.uk</a></p>
 <p><strong>James Thomas</strong>, UCL Social Research Institute, University College London, London, UK. <a href="mailto:james.thomas@ucl.ac.uk" class="email">james.thomas@ucl.ac.uk</a></p>
 <p><strong>Julian PT Higgins</strong>, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK; National Institute for Health Research Biomedical Research Centre, University Hospitals Bristol NHS Foundation Trust and University of Bristol, Bristol, UK; National Institute for Health Research Applied Research Collaboration West (NIHR ARC West) at University Hospitals Bristol NHS Foundation Trust, UK. <a href="mailto:Julian.Higgins@bristol.ac.uk" class="email">Julian.Higgins@bristol.ac.uk</a></p>

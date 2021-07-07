@@ -9,9 +9,9 @@ editor_options:
 
 ## Contributors
 
-__Lena Schmidt__*, Sciome LLC, NC, USA and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. lena.schmidt@sciome.com
+__Lena Schmidt__*, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK and Sciome LLC, NC, USA. lena.schmidt@sciome.com
 
-__Babatunde K Olorisade__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. b.k.olorisade@bristol.ac.uk
+__Babatunde K Olorisade__, Cardiff School of Technologies, Cardiff Metropolitan University, Cardiff, CF5 2YB, UK and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. b.k.olorisade@bristol.ac.uk
 
 
 __Luke A McGuinness__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. luke.mcguinness@bristol.ac.uk
