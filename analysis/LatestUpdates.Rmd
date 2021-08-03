@@ -11,6 +11,8 @@ Latest published version: [ Data extraction methods for systematic review (semi)
 
 This page contains the latest updates to this living review. We have screened and continued the work on this review, a status update and resources are given below.
 
+Current literature updates, extraction progress and duplicates are accessible by clicking on the relevant fields of the PRISMA2020 diagram.
+
 ### Screening status after publication of base-review
 
 Latest references retrieved: Aug 2nd 2021 (PubMed, ArXiv, ACL, DBLP, EPPI-Reviewer Microsoft Academic)
