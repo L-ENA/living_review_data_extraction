@@ -7,15 +7,15 @@ editor_options:
   chunk_output_type: console
 ---
 
-Latest published version: [ Data extraction methods for systematic review (semi)automation: A living systematic review (version 1; peer review: awaiting peer review)](https://f1000research.com/articles/10-401)
+Latest published version: [ Data extraction methods for systematic review (semi)automation: A living systematic review (version 1; peer review: 1 approved)](https://f1000research.com/articles/10-401)
 
 This page contains the latest updates to this living review. We have screened and continued the work on this review, a status update and resources are given below.
 
 ### Screening status after publication of base-review
 
-Latest references retrieved: 02-11-2020 (PubMed, arXiv); 02-11-2020 (DBLP)
+Latest references retrieved: Aug 2nd 2021 (PubMed, ArXiv, ACL, DBLP, EPPI-Reviewer Microsoft Academic)
 
-Number of abstracts retrieved: 1376
+Number of abstracts retrieved (post base-review): 5307
 
 
 
@@ -30,10 +30,10 @@ Number of full-texts excluded: 0
 
 ### PRISMA 2020 flow diagram for the base review
 
-This is the PRISMA diagram for the first version (base review) of this living review.
+This is the PRISMA diagram for the first update of this living review (work in progress, see base review for published results).
 
 ```{r, echo=FALSE}
-htmltools::includeHTML("figures/prisma.html")
+htmltools::includeHTML("figures/new_prisma.html")
 
 ```
 
