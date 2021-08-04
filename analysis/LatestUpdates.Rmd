@@ -1,7 +1,7 @@
 ---
 title: "Latest Updates"
 author: "Lena Schmidt"
-date: "August 3th, 2021"
+date: "August 4th, 2021"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
@@ -15,15 +15,15 @@ Current literature updates, extraction progress and duplicates are accessible by
 
 ### Screening status after publication of base-review
 
-Latest references retrieved: Aug 2nd 2021 (PubMed, ArXiv, ACL, DBLP, EPPI-Reviewer Microsoft Academic)
+Latest references retrieved: Aug 2nd 2021 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/), [cs arXiv](https://arxiv.org/archive/cs), [ACL](https://aclanthology.org/), [DBLP](https://dblp.org/), [EPPI-Reviewer Microsoft Academic](https://eppi.ioe.ac.uk/cms/er4/Manuals/MicrosoftAcademicGraphinEPPI-Reviewer/tabid/3754/Default.aspx))
 
-Number of abstracts retrieved (post base-review): 5307
+Number of abstracts retrieved (post base-review): 4622 (5307 pre-deduplication)
 
 
 
-Number of abstracts screened: 402
+Number of abstracts screened: 502
 
-Number of abstracts sent for full-text assessment: 13
+Number of abstracts sent for full-text assessment: 16
 
 
 Number of full-texts included: 0
@@ -32,7 +32,7 @@ Number of full-texts excluded: 0
 
 ### PRISMA 2020 flow diagram for the base review
 
-This is the PRISMA diagram for the first update of this living review (work in progress, see base review for published results).
+This is the incomplete PRISMA diagram for the first update of this living review (work in progress, see base review for published results). Clicks on the boxes redirect to the in-progress files and data.
 
 ```{r, echo=FALSE}
 htmltools::includeHTML("figures/new_prisma.html")
