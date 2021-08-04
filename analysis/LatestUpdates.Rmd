@@ -30,7 +30,7 @@ Number of full-texts included: 0
 
 Number of full-texts excluded: 0
 
-### PRISMA 2020 flow diagram for the base review
+### PRISMA 2020 flow diagram for the review update
 
 This is the incomplete PRISMA diagram for the first update of this living review (work in progress, see base review for published results). Clicks on the boxes redirect to the in-progress files and data.
 
