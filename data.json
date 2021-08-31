@@ -1,0 +1,20 @@
+{
+	'last_snapshot'='2020-11-06_2_snapshot.csv',
+	'init_screened'='',
+	'init_included'=
+	'exp_included'=,
+	'last_review_init_screened'=10974,
+	'last_review_init_included'=132,
+	'last_review_exp_included'=53,
+	}
+	
+	
+#Meeting notes:
+#DOne: Reference citation retrieval and conversion to RIS for expert includes
+#linking reference information to the interactive prisma on the website (ish)
+#In progress: Automatic website updates
+#Done (but unused/bad): Parllel screening apps for dual screening (ie reference retrieval script powers 2 apps, will use this for dual expert assessments and could be used for dual initial assessments)
+#some fancy interactive plots for website: The script can be adapted for suicide review
+
+#Future problems: The dedupe script scales poorly
+#make prisma automatic

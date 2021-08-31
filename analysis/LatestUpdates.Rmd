@@ -21,9 +21,9 @@ Number of abstracts retrieved (post base-review): 4622 (5307 pre-deduplication)
 
 
 
-Number of abstracts screened: 502
+Number of abstracts screened: 1023
 
-Number of abstracts sent for full-text assessment: 16
+Number of abstracts sent for full-text assessment: 26
 
 
 Number of full-texts included: 0
