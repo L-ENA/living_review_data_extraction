@@ -1,7 +1,7 @@
 ---
 title: "Publications"
-author: "L-ENA"
-date: "2020-10-30"
+author: "Lena Schmidt"
+date: "August 31th, 2021"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
@@ -9,11 +9,11 @@ editor_options:
 
 ## Publication of our living systematic review
 
-The full review was published via F1000 research as [ Data extraction methods for systematic review (semi)automation: A living systematic review (version 1; peer review: awaiting peer review)](https://f1000research.com/articles/10-401). Please cite as:
+The full review was published via F1000 research as [ Data extraction methods for systematic review (semi)automation: A living systematic review](https://f1000research.com/articles/10-401). Please cite as:
 
-> <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living systematic review [version 1; peer review: awaiting peer review]. F1000Research 2021, 10:401 (https://doi.org/10.12688/f1000research.51117.1) </font> 
+> <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living systematic review [version 1; peer review: 3 approved]. F1000Research 2021, 10:401 (https://doi.org/10.12688/f1000research.51117.1) </font> 
 
-The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol (version 2; peer review: 2 approved)](https://f1000research.com/articles/9-210). Please cite as:
+The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol](https://f1000research.com/articles/9-210). Please cite as:
 
 > <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved]. F1000Research 2020, 9:210 (https://doi.org/10.12688/f1000research.22781.2)</font> 
 
