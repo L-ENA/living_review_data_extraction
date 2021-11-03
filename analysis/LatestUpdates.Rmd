@@ -1,7 +1,7 @@
 ---
 title: "Latest Updates"
 author: "Lena Schmidt"
-date: "October 18th, 2021"
+date: "November 3rd, 2021"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
@@ -15,13 +15,13 @@ Current literature updates, extraction progress and duplicates are accessible by
 
 ### Screening status after publication of base-review
 
-Latest references retrieved: Aug 2nd 2021 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/), [cs arXiv](https://arxiv.org/archive/cs), [ACL](https://aclanthology.org/), [DBLP](https://dblp.org/), [EPPI-Reviewer Microsoft Academic](https://eppi.ioe.ac.uk/cms/er4/Manuals/MicrosoftAcademicGraphinEPPI-Reviewer/tabid/3754/Default.aspx))
+Latest references retrieved: Nov 3rd 2021 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/), [cs arXiv](https://arxiv.org/archive/cs), [ACL](https://aclanthology.org/), [DBLP](https://dblp.org/)) Aug 2nd ([EPPI-Reviewer Microsoft Academic](https://eppi.ioe.ac.uk/cms/er4/Manuals/MicrosoftAcademicGraphinEPPI-Reviewer/tabid/3754/Default.aspx))
 
-Number of abstracts retrieved (post base-review): 4622 (5307 pre-deduplication)
+Number of abstracts retrieved (post base-review): 6,488 (8,738 pre-deduplication)
 
 
 
-Number of abstracts screened: 3124
+Number of abstracts screened: 4,772
 
 Number of abstracts sent for full-text assessment: 50
 
