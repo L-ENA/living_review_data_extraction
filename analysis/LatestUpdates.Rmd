@@ -1,7 +1,7 @@
 ---
 title: "Latest Updates"
 author: "Lena Schmidt"
-date: "November 3rd, 2021"
+date: "November 5th, 2021"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
@@ -21,9 +21,9 @@ Number of abstracts retrieved (post base-review): 6,488 (8,738 pre-deduplication
 
 
 
-Number of abstracts screened: 4,772
+Number of abstracts screened: 5,027
 
-Number of abstracts sent for full-text assessment: 50
+Number of abstracts sent for full-text assessment: 89
 
 
 Number of full-texts included: 0
