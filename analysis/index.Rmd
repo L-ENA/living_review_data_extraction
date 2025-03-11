@@ -10,18 +10,22 @@ editor_options:
 
 ## Data extraction methods for systematic review (semi)automation: A living systematic review
 
-This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, as well as additional information about the team and related publication of this review and its software.
+This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, interactive maps to filter and access review content, as well as additional information about the team and related publication of this review and its software.
 
 
-## Abstract of the first published version of this living review
+## Abstract of the second update (submitted for publication)
+
 ### Background: 
-The reliable and usable (semi)automation of data extraction can support the field of systematic review by reducing the workload required to gather information about the conduct and results of the included studies. This living systematic review examines published approaches for data extraction from reports of clinical studies
+The reliable and usable (semi)automation of data extraction can support the field of systematic review by reducing the workload required to gather information about the conduct and results of the included studies. This living systematic review examines published approaches for data extraction from reports of clinical studies. 
 
 ### Methods: 
-We systematically and continually search MEDLINE, Institute of Electrical and Electronics Engineers (IEEE), arXiv, and the dblp computer science bibliography databases. Full text screening and data extraction are conducted within an open-source living systematic review application created for the purpose of this review. This iteration of the living review includes publications up to a cut-off date of 22 April 2020.
+We systematically and continually search PubMed, ACL Anthology, arXiv, OpenAlex via EPPI-Reviewer, and the dblp computer science bibliography. Full text screening and data extraction are conducted using a mix of open-source and commercial tools. This living review update includes publications up to August 2024 and OpenAlex content up September 2024. 
 
-### Results:
-In total, 53 publications are included in this version of our review. Of these, 41 (77%) of the publications addressed extraction of data from abstracts, while 14 (26%) used full texts. A total of 48 (90%) publications developed and evaluated classifiers that used randomised controlled trials as the main target texts. Over 30 entities were extracted, with PICOs (population, intervention, comparator, outcome) being the most frequently extracted. A description of their datasets was provided by 49 publications (94%), but only seven (13%) made the data publicly available. Code was made available by 10 (19%) publications, and five (9%) implemented publicly available tools.
+### Results: 
+117 publications are included in this review. Of these, 30 (26%) used full texts while the rest used titles and abstracts. A total of 112 (96%) publications developed classifiers for randomised controlled trials. Over 30 entities were extracted, with PICOs (population, intervention, comparator, outcome) being the most frequently extracted. Data are available from 53 (45%), and code from 49 (42%) publications. Nine (8%) implemented publicly available tools. 
 
 ### Conclusions: 
-This living systematic review presents an overview of (semi)automated data-extraction literature of interest to different types of systematic review. We identified a broad evidence base of publications describing data extraction for interventional reviews and a small number of publications extracting epidemiological or diagnostic accuracy data. The lack of publicly available gold-standard data for evaluation, and lack of application thereof, makes it difficult to draw conclusions on which is the best-performing system for each data extraction target. With this living review we aim to review the literature continually. 
+This living systematic review presents an overview of (semi)automated data-extraction literature of interest to different types of literature review. We identified a broad evidence base of publications describing data extraction for interventional reviews and a small number of publications extracting other study types. Between review updates, large language models emerged as a new tool for data extraction. While facilitating access to automated extraction, they showed a trend of decreasing quality of results reporting, especially quantitative results such as recall and lower reproducibility of results. Compared with the previous update, trends such as transition to relation extraction and sharing of code and datasets stayed similar.
+
+
+ 

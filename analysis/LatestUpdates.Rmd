@@ -1,57 +1,73 @@
 ---
 title: "Latest Updates"
 author: "Lena Schmidt"
-date: "March 21st, 2023"
+date: "March 11st, 2025"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
 ---
 
-Latest published version: [ Data extraction methods for systematic review (semi)automation: A living systematic review (version 1; peer review: 3 approved)](https://f1000research.com/articles/10-401)
+Latest published version: [ Data extraction methods for systematic review (semi)automation: Update of a living systematic review (version 1; peer review: 3 approved)](https://f1000research.com/articles/10-401)
 
 This page contains the latest updates to this living review. We have screened and continued the work on this review, a status update and resources are given below.
 
-Current literature updates, extraction progress and duplicates are accessible by clicking on the relevant fields of the PRISMA2020 diagram.
-
-### Screening status after publication of base-review
-
-Latest references retrieved: Dec 6th 2022 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/), [cs arXiv](https://arxiv.org/archive/cs), [ACL](https://aclanthology.org/), [DBLP](https://dblp.org/)) Mar 21 2023 ([EPPI-Reviewer Microsoft Academic](https://eppi.ioe.ac.uk/cms/er4/Manuals/MicrosoftAcademicGraphinEPPI-Reviewer/tabid/3754/Default.aspx))
-
-Number of abstracts retrieved (post base-review): 10,108 
-
-Number of abstracts after duplicates removed: 9,338
-
-Number of abstracts screened: 9,338
-
-Number of abstracts sent for full-text assessment: 164
 
 
-Number of full-texts included: 23
+## PRISMA 2020 flow diagram for the review update(s)
 
-Number of full-texts excluded: 141
-
-<!-- ### PRISMA 2020 flow diagram for the review update -->
-
-<!-- This is the incomplete PRISMA diagram for the first update of this living review (work in progress, see base review for published results). Clicks on the boxes redirect to the in-progress files and data. -->
-
-<!-- ```{r, echo=FALSE} -->
-<!-- htmltools::includeHTML("figures/new_prisma.html") -->
-
-<!-- ``` -->
-
-<!-- The PRISMA diagrams were created using [Haddaway, NR. 2020. SRflowdiagram: flow charts for systematic reviews and maps. doi: 10.5281/zenodo.4134795](https://zenodo.org/record/4134795#.X67YUlCnxaQ) -->
-
-<!-- ### Latest figures -->
-
-<!-- These figures represent pre-update, and therefore unpublished, content from the living review.  -->
-
-<!-- ```{r, echo=FALSE} -->
-<!-- htmltools::includeHTML("figures/bar_System_architectures.html") -->
-<!-- htmltools::includeHTML("figures/bar_App_or_user_interface_availability.html") -->
-<!-- htmltools::includeHTML("figures/year_bar.html") -->
-<!-- ``` -->
+This is the PRISMA diagram for the second (submitted not published) review update. It shows the flow of references from base review, as well as updates 1 and 2.
+The base review included 2 updated searches; the first LSR update included 6 searches; and the current 2024 update included 3 update searches until publication cut-off in August/September 2024.
 
 
+```{r, echo=FALSE}
+library(png)
+img <- readPNG('figures/prisma.png')
+grid::grid.raster(img)
+```
 
+The PRISMA diagrams were created using a template from [Tailored PRISMA 2020 flow diagrams for living systematic reviews: a methodological survey and a proposal](https://f1000research.com/articles/10-192/v3) and an app to create the PRISMA visualisation is [here](https://estech.shinyapps.io/livingprismaflow/)
 
+## LSR update 2 Interactive Maps
+
+These figures represent submitted but not yet published content from the living review.
+
+### Data Extraction Architectures
+This map shows which kind of AI architecture was used in the included papers to extract the data points of interest. Each paper can include one or more combined architectures.
+
+```{r, echo=FALSE}
+b64 <- base64enc::dataURI(file = "figures/approachXentity.html", mime = "text/html")
+htmltools::tags$iframe(src=b64,  height=800, width=1000)
+```
+
+### Data Extraction Granularity
+This map shows how granular the data extraction was for each data point of interest.
+
+```{r, echo=FALSE}
+b64 <- base64enc::dataURI(file = "figures/24granularityXentity.html", mime = "text/html")
+htmltools::tags$iframe(src=b64,  height=800, width=1000)
+```
+
+### Data Extraction Scoring and Validation
+This map shows which validation metrics were applied in the included papers.
+
+```{r, echo=FALSE}
+b64 <- base64enc::dataURI(file = "figures/24scoresXentity.html", mime = "text/html")
+htmltools::tags$iframe(src=b64,  height=800, width=1000)
+```
+
+### Data Extraction Scope
+This map shows from which part of the source texts each included paper extracted the data from.
+
+```{r, echo=FALSE}
+b64 <- base64enc::dataURI(file = "figures/24scopeXentity.html", mime = "text/html")
+htmltools::tags$iframe(src=b64,  height=800, width=1000)
+```
+
+### Data Extraction Source Texts
+This map shows from which type of study the included publications extracted data.
+
+```{r, echo=FALSE}
+b64 <- base64enc::dataURI(file = "figures/24dataXentity.html", mime = "text/html")
+htmltools::tags$iframe(src=b64,  height=800, width=1000)
+```
 

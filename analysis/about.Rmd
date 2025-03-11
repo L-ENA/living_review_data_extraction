@@ -9,16 +9,14 @@ editor_options:
 
 ## Contributors
 
-__Lena Schmidt__*, Sciome LLC, NC, USA and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. lena.schmidt@sciome.com 
+__Lena Schmidt__*, NIHR Innovation Observatory, Newcastle University, UK and Sciome LLC, NC, USA. lena.schmidt@io.nihr.ac.uk
 
-__Ailbhe Finnerty__, UCL Psychology and Language Sciences, University College London, London, UK
-
-__Babatunde K Olorisade__, Cardiff School of Technologies, Cardiff Metropolitan University, Cardiff, CF5 2YB, UK and Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. KOlorisade@cardiffmet.ac.uk
+__Ailbhe N Finnerty Mutlu__, UCL Psychology and Language Sciences, University College London, London, UK
 
 __Rebecca Elmore__, Sciome LLC, NC, USA. rebecca.elmore@sciome.com
 
+__Babatunde K Olorisade__, EdgeStride (Timeless Dynamics Academy), AACSL 1st Floor, North Westgate House, Harlow, Essex, CM20 1YS, UK
 
-__Luke A McGuinness__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK. luke.mcguinness@bristol.ac.uk
 
 __James Thomas__, UCL Social Research Institute, University College London, London, UK. james.thomas@ucl.ac.uk
 

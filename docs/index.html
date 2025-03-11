@@ -290,7 +290,7 @@ $(document).ready(function () {
 
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
-<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+<span class="glyphicon glyphicon-list" aria-hidden="true"></span> workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span>
 </button>
 </p>
 <div id="workflowr-report" class="collapse">
@@ -299,7 +299,7 @@ $(document).ready(function () {
 <a data-toggle="tab" href="#summary">Summary</a>
 </li>
 <li>
-<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> </a>
+<a data-toggle="tab" href="#checks"> Checks <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -308,10 +308,10 @@ $(document).ready(function () {
 <div class="tab-content">
 <div id="summary" class="tab-pane fade in active">
 <p>
-<strong>Last updated:</strong> 2023-03-21
+<strong>Last updated:</strong> 2025-03-11
 </p>
 <p>
-<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 2 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 0
+<strong>Checks:</strong> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 1 <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong> <code>LSR_website_2023/</code> <span class="glyphicon glyphicon-question-sign" aria-hidden="true" title="This is the local directory in which the code in this file was executed."> </span>
@@ -327,35 +327,54 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges"> <span class="glyphicon glyphicon-exclamation-sign text-danger" aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate" class="panel-collapse collapse">
+<div id="strongRMarkdownfilestronguncommittedchanges" class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git repository, you know the exact version of the code that produced these results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of the R Markdown file created these results, you’ll want to first commit it to the Git repo. If you’re still working on the analysis, you can ignore this warning. When you’re finished, you can run <code>wflow_publish</code> to commit the R Markdown file and build the HTML.</p>
 </div>
 </div>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomLENAlivingreviewdataextractiontree06cae12645e63de9ef96e9b7e95a3ab9c850b654targetblank06cae12a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/L-ENA/living_review_data_extraction/tree/06cae12645e63de9ef96e9b7e95a3ab9c850b654" target="_blank">06cae12</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomLENAlivingreviewdataextractiontree7434162ee1d43c21ca7845b2942fed636ce440cftargetblank7434162a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/L-ENA/living_review_data_extraction/tree/7434162ee1d43c21ca7845b2942fed636ce440cf" target="_blank">7434162</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomLENAlivingreviewdataextractiontree06cae12645e63de9ef96e9b7e95a3ab9c850b654targetblank06cae12a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomLENAlivingreviewdataextractiontree7434162ee1d43c21ca7845b2942fed636ce440cftargetblank7434162a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/L-ENA/living_review_data_extraction/tree/06cae12645e63de9ef96e9b7e95a3ab9c850b654" target="_blank">06cae12</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/L-ENA/living_review_data_extraction/tree/7434162ee1d43c21ca7845b2942fed636ce440cf" target="_blank">7434162</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
 </p>
 <pre><code>
 Ignored files:
+    Ignored:    .Rhistory
     Ignored:    .Rproj.user/
+    Ignored:    commands.R
+
+Untracked files:
+    Untracked:  figures/24Study_type_LLM_map.html
+    Untracked:  figures/24Text_Scope_LLM_map.html
+    Untracked:  figures/24approachXentity.html
+    Untracked:  figures/24dataXentity.html
+    Untracked:  figures/24granularityXentity.html
+    Untracked:  figures/24scopeXentity.html
+    Untracked:  figures/24scoresXentity.html
+    Untracked:  figures/old_prisma.html
+    Untracked:  figures/prisma.png
+
+Unstaged changes:
+    Modified:   analysis/LatestUpdates.Rmd
+    Modified:   analysis/about.Rmd
+    Modified:   analysis/index.Rmd
+    Deleted:    figures/new_prisma.html
 
 </code></pre>
 <p>
@@ -394,6 +413,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/L-ENA/living_review_data_extraction/7434162ee1d43c21ca7845b2942fed636ce440cf/docs/index.html" target="_blank">7434162</a>
+</td>
+<td>
+L-ENA
+</td>
+<td>
+2023-03-21
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -1117,25 +1153,25 @@ Start workflowr project.
 </div>
 <div id="data-extraction-methods-for-systematic-review-semiautomation-a-living-systematic-review" class="section level2">
 <h2>Data extraction methods for systematic review (semi)automation: A living systematic review</h2>
-<p>This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, as well as additional information about the team and related publication of this review and its software.</p>
+<p>This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, interactive maps to filter and access review content, as well as additional information about the team and related publication of this review and its software.</p>
 </div>
-<div id="abstract-of-the-first-published-version-of-this-living-review" class="section level2">
-<h2>Abstract of the first published version of this living review</h2>
+<div id="abstract-of-the-second-update-submitted-for-publication" class="section level2">
+<h2>Abstract of the second update (submitted for publication)</h2>
 <div id="background" class="section level3">
 <h3>Background:</h3>
-<p>The reliable and usable (semi)automation of data extraction can support the field of systematic review by reducing the workload required to gather information about the conduct and results of the included studies. This living systematic review examines published approaches for data extraction from reports of clinical studies</p>
+<p>The reliable and usable (semi)automation of data extraction can support the field of systematic review by reducing the workload required to gather information about the conduct and results of the included studies. This living systematic review examines published approaches for data extraction from reports of clinical studies.</p>
 </div>
 <div id="methods" class="section level3">
 <h3>Methods:</h3>
-<p>We systematically and continually search MEDLINE, Institute of Electrical and Electronics Engineers (IEEE), arXiv, and the dblp computer science bibliography databases. Full text screening and data extraction are conducted within an open-source living systematic review application created for the purpose of this review. This iteration of the living review includes publications up to a cut-off date of 22 April 2020.</p>
+<p>We systematically and continually search PubMed, ACL Anthology, arXiv, OpenAlex via EPPI-Reviewer, and the dblp computer science bibliography. Full text screening and data extraction are conducted using a mix of open-source and commercial tools. This living review update includes publications up to August 2024 and OpenAlex content up September 2024.</p>
 </div>
 <div id="results" class="section level3">
 <h3>Results:</h3>
-<p>In total, 53 publications are included in this version of our review. Of these, 41 (77%) of the publications addressed extraction of data from abstracts, while 14 (26%) used full texts. A total of 48 (90%) publications developed and evaluated classifiers that used randomised controlled trials as the main target texts. Over 30 entities were extracted, with PICOs (population, intervention, comparator, outcome) being the most frequently extracted. A description of their datasets was provided by 49 publications (94%), but only seven (13%) made the data publicly available. Code was made available by 10 (19%) publications, and five (9%) implemented publicly available tools.</p>
+<p>117 publications are included in this review. Of these, 30 (26%) used full texts while the rest used titles and abstracts. A total of 112 (96%) publications developed classifiers for randomised controlled trials. Over 30 entities were extracted, with PICOs (population, intervention, comparator, outcome) being the most frequently extracted. Data are available from 53 (45%), and code from 49 (42%) publications. Nine (8%) implemented publicly available tools.</p>
 </div>
 <div id="conclusions" class="section level3">
 <h3>Conclusions:</h3>
-<p>This living systematic review presents an overview of (semi)automated data-extraction literature of interest to different types of systematic review. We identified a broad evidence base of publications describing data extraction for interventional reviews and a small number of publications extracting epidemiological or diagnostic accuracy data. The lack of publicly available gold-standard data for evaluation, and lack of application thereof, makes it difficult to draw conclusions on which is the best-performing system for each data extraction target. With this living review we aim to review the literature continually.</p>
+<p>This living systematic review presents an overview of (semi)automated data-extraction literature of interest to different types of literature review. We identified a broad evidence base of publications describing data extraction for interventional reviews and a small number of publications extracting other study types. Between review updates, large language models emerged as a new tool for data extraction. While facilitating access to automated extraction, they showed a trend of decreasing quality of results reporting, especially quantitative results such as recall and lower reproducibility of results. Compared with the previous update, trends such as transition to relation extraction and sharing of code and datasets stayed similar.</p>
 </div>
 </div>
 
