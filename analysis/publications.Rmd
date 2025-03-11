@@ -1,18 +1,26 @@
 ---
 title: "Publications"
 author: "Lena Schmidt"
-date: "August 31th, 2021"
+date: "March 11, 2025"
 output: workflowr::wflow_html
 editor_options:
   chunk_output_type: console
 ---
 
-## Publication of our living systematic review
+## Publication of our living systematic review update
 
-The full review was published via F1000 research as [ Data extraction methods for systematic review (semi)automation: A living systematic review](https://f1000research.com/articles/10-401). Please cite as:
+The most recent published version on F1000 research is [ Data extraction methods for systematic review (semi)automation: Update of a living systematic review](https://f1000research.com/articles/10-401). Please cite as:
 
-> <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living systematic review [version 1; peer review: 3 approved]. F1000Research 2021, 10:401 (https://doi.org/10.12688/f1000research.51117.1) </font> 
+> <font size="2" color="gray">Schmidt L, Finnerty Mutlu AN, Elmore R et al. Data extraction methods for systematic review (semi)automation: Update of a living systematic review [version 2; peer review: 3 approved]. F1000Research 2023, 10:401 (https://doi.org/10.12688/f1000research.51117.2) </font> 
 
+## Evidence-Based Toxicology commentary (pre-print) discussing LLM data from LSR update 
+
+This pre-print related to the LSR is currently under review, it is accessible here: [Large Language Models for Data Extraction in Toxicology: Implications and Lessons Learned from the Clinical Evidence Domain](https://zenodo.org/records/14893134)
+
+> <font size="2" color="gray">Schmidt, L., Campbell, F., Craig, D., Walker, V. R., Rooney, A. A., Schmitt, C. P., Hartung, T., & Thomas, J. (2025). Large Language Models for Data Extraction in Toxicology: Implications and Lessons Learned from the Clinical Evidence Domain (Version 1). Zenodo. https://doi.org/10.5281/zenodo.14893134 </font> 
+
+
+## Other
 The review protocol was published via F1000 research as [Data extraction methods for systematic review (semi)automation: A living review protocol](https://f1000research.com/articles/9-210). Please cite as:
 
 > <font size="2" color="gray">Schmidt L, Olorisade BK, McGuinness LA et al. Data extraction methods for systematic review (semi)automation: A living review protocol [version 2; peer review: 2 approved]. F1000Research 2020, 9:210 (https://doi.org/10.12688/f1000research.22781.2)</font> 

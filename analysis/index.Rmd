@@ -10,7 +10,7 @@ editor_options:
 
 ## Data extraction methods for systematic review (semi)automation: A living systematic review
 
-This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find the latest updates to the review, interactive maps to filter and access review content, as well as additional information about the team and related publication of this review and its software.
+This living review looks at data extraction methods for systematic review (semi)automation. On this website you will find information about the latest updates to the review, including [interactive maps](LatestUpdates.html) to filter and access review content, as well as additional information about [related publications](publications.html) and [authors](about.html) of this review and its software.
 
 
 ## Abstract of the second update (submitted for publication)

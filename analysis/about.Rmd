@@ -22,5 +22,10 @@ __James Thomas__, UCL Social Research Institute, University College London, Lond
 
 __Julian PT Higgins__, Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK; National Institute for Health Research Biomedical Research Centre, University Hospitals Bristol NHS Foundation Trust and University of Bristol, Bristol, UK; National Institute for Health Research Applied Research Collaboration West (NIHR ARC West) at University Hospitals Bristol NHS Foundation Trust, UK. Julian.Higgins@bristol.ac.uk
 
-
 *Contact author
+
+## Past Contributors
+
+We would like to thank Luke McGuinness, who contributed to the base review as author.
+
+
